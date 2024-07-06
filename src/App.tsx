@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import Cards from "./Cards";
 import Bubble from "./Bubble";
 
