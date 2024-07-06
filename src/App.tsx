@@ -7,8 +7,6 @@ import menuDrink from "./assets/menu_drink.png";
 import reviewTalk from "./assets/review_talk.png";
 
 //icons
-import { FaTiktok, FaTwitter, FaInstagram, FaPhone } from "react-icons/fa6";
-import { FaMailBulk } from "react-icons/fa";
 
 const App = () => {
   return (
@@ -105,15 +103,12 @@ const App = () => {
                   Socials
                 </h2>
                 <a href="#">
-                  <FaInstagram className="text-icon" />
                   <p className="text-desc inline text-primary">@Haku_TentoID</p>
                 </a>
                 <a href="#">
-                  <FaTwitter className="text-icon" />{" "}
                   <p className="text-desc inline text-primary">@Haku_Tento</p>
                 </a>
                 <a href="#">
-                  <FaTiktok className="text-icon" />{" "}
                   <p className="text-desc inline text-primary">Haku_TentoID</p>
                 </a>
               </div>
@@ -123,13 +118,11 @@ const App = () => {
                   Contact Us
                 </h2>
                 <a href="#">
-                  <FaPhone className="text-icon" />
                   <p className="text-desc inline text-primary">
                     +(62) 823-4324-4343
                   </p>{" "}
                 </a>
                 <a href="#">
-                  <FaMailBulk className="text-icon" />
                   <p className="text-desc inline text-primary">
                     HakuTento@gmail.com
                   </p>{" "}
