@@ -1,10 +1,4 @@
 //images
-import heroFood from "./assets/hero_food.png";
-import menuRamen from "./assets/menu_ramen.png";
-import menuSushi from "./assets/menu_sushi.png";
-import menuOnigiri from "./assets/menu_onigiri.png";
-import menuDrink from "./assets/menu_drink.png";
-import reviewTalk from "./assets/review_talk.png";
 
 //icons
 
@@ -37,8 +31,6 @@ const App = () => {
               </button>
             </div>
           </div>
-
-          <img src={heroFood} className="w-[40%] mt-12 mx-auto sm:w-3/4" />
         </div>
       </section>
 
@@ -66,12 +58,7 @@ const App = () => {
           <p className="text-desc mt-2">
             Let's hear what other has said about us!
           </p>
-          <div className="relative mt-20 flex items-center lg:h-dvh lg:mt-12 md:min-h-[950px]">
-            <img
-              src={reviewTalk}
-              className="w-1/2 mx-auto md:w-[60%] sm:min-w-[80%]"
-            />
-          </div>
+          <div className="relative mt-20 flex items-center lg:h-dvh lg:mt-12 md:min-h-[950px]"></div>
         </div>
       </section>
 
