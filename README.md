@@ -1,30 +1,56 @@
-# React + TypeScript + Vite
+# Personal Responsive Design Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal project that i build to increase my understanding of responsive design, responsive container, grid and flexbox
 
-Currently, two official plugins are available:
+## Techstack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React (Javascript framework for faster build)
+- Vite (React build tool for faster development)
+- Typescript (Javascript superset for safety checks)
+- EsLint (for development type checks)
+- Tailwind & CSS (For styling and animation, tailwind for faster and stronger css, css for flexibility)
 
-## Expanding the ESLint configuration
+## What do i gain from this personal project
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+i mostly gain comprehension about building a responsive container, as that is mostly the reason why i make this project. In this project i use 4 device queries as a base for responsive container, that is: Mobile for 320px - 766px, Tablet 768px - 1023px, Laptop 1024px - 1439px, and Desktop 1440px and above. This is my css code for responsive container:
 
-- Configure the top-level `parserOptions` property like this:
+```css
+.mobile-container {
+  width: auto;
+  height: 100dvh;
+  margin-inline: 12px;
+}
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
+.tablet-container {
+  width: auto;
+  height: 100dvh;
+  margin-inline: 16px;
+}
+
+.laptop-container {
+  width: 960;
+  height: 100dvh;
+  margin-inline: auto;
+}
+
+.desktop-container {
+  width: auto;
+  height: 1320;
+  margin-inline: auto;
 }
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Assets
+
+- Logo, Brand, & Company Name
+  The company is based on a real business located in Indonesia, i borrowed the company name & asset SOLELY for this personal project and NOT for business affairs
+
+- Images, Illustration, & Background
+  All sources from free licensing of [Freepik](https://www.freepik.com/)
+
+- Fonts
+  [Satoshi](https://befonts.com/satoshi-font-family.html#google_vignette)
+  [Hiro Misake](https://www.dafont.com/hiro-misake.font)
+
+-Design Inspiration
+All sources from free licensing of [Dribbble](https://dribbble.com/)
