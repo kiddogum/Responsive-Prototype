@@ -12,7 +12,14 @@ This is a personal project that i build to increase my understanding of responsi
 
 ## What do i gain from this personal project
 
-i mostly gain comprehension about building a responsive container, as that is mostly the reason why i make this project. In this project i use 4 device queries as a base for responsive container, that is: Mobile for 320px - 766px, Tablet 768px - 1023px, Laptop 1024px - 1439px, and Desktop 1440px and above. This is my css code for responsive container:
+i mostly gain comprehension about building a responsive container, as that is mostly the reason why i make this project. In this project i use 4 device queries as a base for responsive container, that is:
+
+- Mobile for 320px - 766px,
+- Tablet 768px - 1023px,
+- Laptop 1024px - 1439px,
+- Desktop 1440px and above.
+
+This is my css code for responsive container:
 
 ```css
 .mobile-container {
@@ -43,14 +50,18 @@ i mostly gain comprehension about building a responsive container, as that is mo
 ## Assets
 
 - Logo, Brand, & Company Name
+
   The company is based on a real business located in Indonesia, i borrowed the company name & asset SOLELY for this personal project and NOT for business affairs
 
 - Images, Illustration, & Background
+
   All sources from free licensing of [Freepik](https://www.freepik.com/)
 
 - Fonts
+
   [Satoshi](https://befonts.com/satoshi-font-family.html#google_vignette)
   [Hiro Misake](https://www.dafont.com/hiro-misake.font)
 
--Design Inspiration
+- Design Inspiration
+
 All sources from free licensing of [Dribbble](https://dribbble.com/)
