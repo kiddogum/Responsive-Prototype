@@ -1,6 +1,3 @@
-import Cards from "./Cards";
-import Bubble from "./Bubble";
-
 //images
 import heroFood from "./assets/hero_food.png";
 import menuRamen from "./assets/menu_ramen.png";
@@ -55,12 +52,7 @@ const App = () => {
             street food dishes!
           </p>
 
-          <div className=" mt-20 flex justify-between md:flex-wrap md:gap-y-12 sm:mt-12">
-            <Cards image={menuRamen} food={`Ramen`} variety={5} />
-            <Cards image={menuSushi} food={`Sushi`} variety={6} />
-            <Cards image={menuOnigiri} food={`Onigiri`} variety={3} />
-            <Cards image={menuDrink} food={`Drinks`} variety={7} />
-          </div>
+          <div className=" mt-20 flex justify-between md:flex-wrap md:gap-y-12 sm:mt-12"></div>
 
           <button className="button-full block mt-16 mx-auto lg:mt-12">
             <a href="#" className="relative z-10">
@@ -77,22 +69,6 @@ const App = () => {
             Let's hear what other has said about us!
           </p>
           <div className="relative mt-20 flex items-center lg:h-dvh lg:mt-12 md:min-h-[950px]">
-            <Bubble
-              text={`"Haku Tento delivers an authentic Japanese street food experience that is hard to find outside of Japan. The takoyaki is perfectly crispy on the outside and tender on the inside, and the matcha desserts are a must-try! Highly recommend this place."`}
-              author={`Nina S.`}
-            />
-            <Bubble
-              text={`"The food at Haku Tento is simply outstanding. The ramen is rich and flavorful, and the sushi is incredibly fresh. It's like a trip to Japan without leaving the city. I'll definitely be coming back!"`}
-              author={`Rizky P.`}
-            />
-            <Bubble
-              text={`"Haku Tento truly captures the essence of Japanese street food. The tempura is light and crispy, and the variety of dishes ensures there's something for everyone. A fantastic spot for anyone craving authentic Japanese cuisine."`}
-              author={`Lisa T.`}
-            />
-            <Bubble
-              text={`"From the moment you step into Haku Tento, you can feel the passion for authenticity. The sashimi salad was fresh and beautifully presented, and the staff were friendly and attentive. This is my go-to place for Japanese food!"`}
-              author={`Andi W.`}
-            />
             <img
               src={reviewTalk}
               className="w-1/2 mx-auto md:w-[60%] sm:min-w-[80%]"
