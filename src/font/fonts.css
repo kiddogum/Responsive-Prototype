@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Hiro Misake";
+  src: url("./hiro_misake/HIROMISAKE.ttf");
+}
+
+@font-face {
+  font-family: "Satoshi";
+  font-weight: 400;
+  src: url("./Satoshi_Complete/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf");
+}
+@font-face {
+  font-family: "Satoshi";
+  font-weight: 700;
+  src: url("./Satoshi_Complete/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf");
+}
+@font-face {
+  font-family: "Satoshi";
+  font-weight: 300;
+  src: url("./Satoshi_Complete/Satoshi_Complete/Fonts/OTF/Satoshi-Light.otf");
+}
