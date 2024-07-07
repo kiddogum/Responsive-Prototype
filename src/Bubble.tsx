@@ -1,5 +1,3 @@
-import React from "react";
-
 type BubbleProps = {
   text: string;
   author: string;

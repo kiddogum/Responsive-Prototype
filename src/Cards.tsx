@@ -1,5 +1,3 @@
-import React from "react";
-
 type CardsProps = {
   image: string;
   food: string;
