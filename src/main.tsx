@@ -1,6 +1,10 @@
+import React from "react";
 import ReactDOM from "react-dom/client";
+import App from "./App.tsx";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <h1 className="font-hiro text-3xl">hello</h1>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
